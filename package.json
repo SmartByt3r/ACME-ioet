@@ -1,0 +1,19 @@
+{
+  "name": "acme-ioet",
+  "version": "1.0.0",
+  "description": "Ioet application exercise for Junior Software Developer job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartByt3r/ACME-ioet.git"
+  },
+  "author": "Nicolas Cisneros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmartByt3r/ACME-ioet/issues"
+  },
+  "homepage": "https://github.com/SmartByt3r/ACME-ioet#readme"
+}
