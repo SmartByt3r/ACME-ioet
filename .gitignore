@@ -1,6 +1,7 @@
 ### Node ###
 # Logs
 input.txt
+demo.txt
 logs
 *.log
 npm-debug.log*
