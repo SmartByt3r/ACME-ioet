@@ -46,7 +46,7 @@ function run(data: string) {
  * @returns void
  */
 export function commandRouter(argv: string[]) {
-  if (argv.length === 0 || argv[0] === "-help" || argv.length > 1) {
+  if (argv.length === 0 || argv.length > 1) {
     help();
     return;
   }
@@ -54,6 +54,10 @@ export function commandRouter(argv: string[]) {
     demo();
     return;
   }
-  const fileData = readFileSync(argv[0], "utf8");
-  run(fileData);
+  if (argv[0].endsWith(".txt")) {
+    const fileData = readFileSync(argv[0], "utf8");
+    run(fileData);
+    return;
+  }
+  help();
 }
